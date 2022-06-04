@@ -1,0 +1,15 @@
+.menu {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    background: #cccc;
+    border-radius: 8px;
+    list-style-type: none;
+}
+
+
+.link:global(.active){
+    color: red;
+}
